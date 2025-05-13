@@ -9,6 +9,7 @@ if 'students' not in st.session_state:
 
 # Sidebar Navigation
 st.sidebar.title("Student Portal")
+st.text("A Project by Kshama R - 1DA21EC074")
 page = st.sidebar.radio("Go to", ["Add Student", "Student List", "Project Info"])
 
 # Page 1: Add Student
